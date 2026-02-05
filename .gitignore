@@ -1,0 +1,13 @@
+*.pyc
+*.db
+__pycache__/
+node_modules/
+dist/
+.DS_Store
+.vscode/
+cahier_temp/
+~$hier des charges.docx
+parc/node_modules/
+.angular/
+.inputrc
+python/venv/
