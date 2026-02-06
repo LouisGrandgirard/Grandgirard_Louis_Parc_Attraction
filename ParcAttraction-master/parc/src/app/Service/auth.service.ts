@@ -7,13 +7,13 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class AuthService {
-  
-  http = inject(HttpClient);
-  
-  isLoggedIn = false;
-  user: UserInterface|null = null;
 
-  // store the URL so we can redirect after logging in
+  http = inject(HttpClient);
+
+  isLoggedIn = false;
+  user: UserInterface | null = null;
+
+
   redirectUrl: string | null = null;
 
   login(form: object): Observable<boolean> {

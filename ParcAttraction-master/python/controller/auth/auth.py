@@ -33,7 +33,7 @@ def decode_auth_token(auth_token):
         print(e, flush=True)
         return 'Le token est invalide. Veuillez-vous reconnecter.'
 
-# Fonction vérif token
+
 def check_token(request):
     if ('Authorization' in request.headers):
         token = request.headers['Authorization']

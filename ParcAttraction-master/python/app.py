@@ -13,11 +13,11 @@ CORS(app)
 def hello_world():
     return 'Hello, Docker!'
 
-# Attraction
+
 @app.post('/attraction')
 def addAttraction():
     print("okok", flush=True)
-    # Fonction vérif token
+
     checkToken = user.check_token(request)
     if (checkToken != True):
         return checkToken
@@ -46,7 +46,7 @@ def getAttraction(index):
 @app.delete('/attraction/<int:index>')
 def deleteAttraction(index):
 
-    # Fonction vérif token
+
     checkToken = user.check_token(request)
     if (checkToken != True):
         return checkToken

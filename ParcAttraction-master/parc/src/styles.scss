@@ -1,29 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap');
 
 :root {
-    /* Cyber/Dark Theme Palette */
     --primary: #8b5cf6;
-    /* Violet 500 */
     --primary-dark: #7c3aed;
-    /* Violet 600 */
     --accent: #ec4899;
-    /* Pink 500 */
     --background: #0f172a;
-    /* Slate 900 */
     --surface: #1e293b;
-    /* Slate 800 */
     --text-primary: #f1f5f9;
-    /* Slate 100 */
     --text-secondary: #cbd5e1;
-    /* Slate 300 */
     --border: #334155;
-    /* Slate 700 */
     --success: #10b981;
-    /* Emerald 500 */
     --warning: #f59e0b;
-    /* Amber 500 */
     --danger: #ef4444;
-    /* Red 500 */
 }
 
 * {
@@ -44,7 +32,6 @@ body {
     padding: 0;
 }
 
-/* Container responsive */
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -57,8 +44,6 @@ body {
     }
 }
 
-/* Cards */
-/* Cards */
 mat-card {
     margin-bottom: 24px;
     border-radius: 12px;
@@ -67,8 +52,6 @@ mat-card {
     border: 1px solid var(--border);
 }
 
-/* Buttons */
-/* Buttons */
 .mat-mdc-raised-button {
     border-radius: 8px;
     font-weight: 600;
@@ -76,13 +59,11 @@ mat-card {
     letter-spacing: 0.05em;
 }
 
-/* Form fields */
 .mat-mdc-form-field {
     width: 100%;
     margin-bottom: 12px;
 }
 
-/* Typography */
 h1,
 h2,
 h3,
@@ -112,14 +93,12 @@ p {
     color: var(--text-secondary);
 }
 
-/* Toolbar styling */
 .mat-toolbar {
     background-color: var(--surface);
     color: var(--text-primary);
     border-bottom: 1px solid var(--border);
 }
 
-/* Responsive utilities */
 @media (max-width: 600px) {
     h1 {
         font-size: 22px;
